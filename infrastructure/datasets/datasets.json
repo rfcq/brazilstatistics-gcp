@@ -1,0 +1,16 @@
+[
+    {
+      "dataset_id": "DataMart_CitiesTransparency",
+      "dataset_region": "us-east1",
+      "dataset_friendly_name": "Dataset de dados crus do índice de transparência 360",
+      "dataset_description": "Dataset de índice de transparência dos municípios",
+      "tables": [
+        {
+          "table_id": "CitiesTransparencyRank",
+          "table_schema_path": "./schemas/ranking.json",
+          "partition_type": "MONTH",
+          "partition_field": "ingestion_date"
+        }
+      ]
+    }
+]

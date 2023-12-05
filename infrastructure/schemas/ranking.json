@@ -1,0 +1,27 @@
+[
+    {
+        "name": "ranking",
+        "type": "INTEGER",
+        "description": ""
+    },
+    {
+        "name": "evaluation_grade",
+        "type": "FLOAT"
+    },
+    {
+        "name": "entity",
+        "type": "STRING",
+        "description": "Evaluated Entity"
+    },
+    {
+        "name": "cod_ibge",
+        "type": "INTEGER",
+        "description": ""
+    },
+    {
+        "name": "ingestion_date",
+        "type": "TIMESTAMP",
+        "mode": "NULLABLE",
+        "description": "Ingestion date"
+    }
+]
